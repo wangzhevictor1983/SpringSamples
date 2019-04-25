@@ -10,3 +10,4 @@ springbasicdemo/demo/.settings/org.eclipse.m2e.core.prefs
 springbasicdemo/demo/target/classes/META-INF/MANIFEST.MF
 springbasicdemo/demo/target/classes/META-INF/maven/com.zhe.springbasic/demo/pom.properties
 springbasicdemo/demo/target/classes/META-INF/maven/com.zhe.springbasic/demo/pom.xml
+springbasicdemo/demo/target/classes/applicationContext.xml
