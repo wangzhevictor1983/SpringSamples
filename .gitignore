@@ -1,0 +1,12 @@
+
+springbasicdemo/demo/.classpath
+springbasicdemo/demo/.project
+springbasicdemo/demo/.settings/org.eclipse.core.resources.prefs
+springbasicdemo/demo/.settings/org.eclipse.jdt.apt.core.prefs
+springbasicdemo/demo/.settings/org.eclipse.jdt.core.prefs
+springbasicdemo/demo/.settings/org.eclipse.m2e.core.prefs
+*.class
+/demo/target
+springbasicdemo/demo/target/classes/META-INF/MANIFEST.MF
+springbasicdemo/demo/target/classes/META-INF/maven/com.zhe.springbasic/demo/pom.properties
+springbasicdemo/demo/target/classes/META-INF/maven/com.zhe.springbasic/demo/pom.xml
