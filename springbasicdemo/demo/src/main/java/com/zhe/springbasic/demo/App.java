@@ -1,6 +1,7 @@
 package com.zhe.springbasic.demo;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * Hello world!
@@ -8,9 +9,14 @@ import org.springframework.context.ApplicationContext;
  */
 public class App 
 {
-    public static void main( String[] args )
+    private static ApplicationContext context;
+
+	public static void main( String[] args )
     {
-    	ApplicationContext context;
-        System.out.println( "Hello World!" );
+    	context = new ClassPathXmlApplicationContext("applicationContext.xml");;
+    	for(String str : context.getBeanDefinitionNames()) {
+    		System.out.println(str);
+    	}
+        //System.out.println( "Hello World!" );
     }
 }
