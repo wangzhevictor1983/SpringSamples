@@ -5,6 +5,9 @@ public class Car implements CarInterface{
     private String brand;
     private double price;
     
+    // singleton test
+    private static int index = 0;
+    
     public Car() {
     	
     }
@@ -31,7 +34,7 @@ public class Car implements CarInterface{
     }
     
     public void run(){
-        System.out.println("brand:"+brand+",maxSpeed:"+maxSpeed+",price:"+price);
+        System.out.println("brand:"+brand+",maxSpeed:"+maxSpeed+",price:"+price + ",index:" + index++);
     }
 
 }
