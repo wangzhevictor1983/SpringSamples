@@ -18,3 +18,9 @@ springbasicdemo/demo/target/classes/.settings/org.eclipse.jdt.apt.core.prefs
 springbasicdemo/demo/target/classes/.settings/org.eclipse.jdt.core.prefs
 springbasicdemo/demo/target/classes/.settings/org.eclipse.m2e.core.prefs
 springbasicdemo/demo/target/classes/pom.xml
+springmvcdemo/.classpath
+springmvcdemo/.project
+/.settings/
+springmvcdemo/.settings/org.eclipse.m2e.core.prefs
+springmvcdemo/.settings/org.eclipse.jdt.core.prefs
+springmvcdemo/.settings/org.eclipse.jdt.apt.core.prefs
