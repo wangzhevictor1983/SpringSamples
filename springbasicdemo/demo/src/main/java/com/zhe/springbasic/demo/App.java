@@ -17,6 +17,18 @@ public class App
     	for(String str : context.getBeanDefinitionNames()) {
     		System.out.println(str);
     	}
-        //System.out.println( "Hello World!" );
+    	CarInterface carInterfaceSampleOne = (CarInterface)context.getBean("car");
+    	CarInterface carInterfaceSampleTwo = (CarInterface)context.getBean("car");
+    	// singleton test: prove the injection class is a singleton type by default
+    	/*
+    	for(int i = 0; i < 2; i++)
+    	{
+    		carInterface.run();
+    	}*/
+    	carInterfaceSampleOne.run();
+    	carInterfaceSampleTwo.run();
+    	//System.out.println( "Hello World!" );
+    	
+    	
     }
 }

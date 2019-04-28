@@ -12,7 +12,9 @@
     http://www.springframework.org/schema/aop  
     http://www.springframework.org/schema/aop/spring-aop.xsd   
     ">
-    
+<!-- annotation injection -->     
+<context:annotation-config />
+
 <!-- property injection (getter, setter) -->
 <bean id="car" class="com.zhe.springbasic.demo.Car">  
     <property name="maxSpeed" value="200"></property>
@@ -29,9 +31,6 @@
 
 <bean id="carBean" class="com.zhe.springbasic.demo.CarBean"></bean>
 
-<!--
-<context:annotation-config />
 <context:component-scan base-package="com.zhe.springbasic.demo"/>
--->
 
 </beans>
