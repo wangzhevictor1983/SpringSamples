@@ -27,6 +27,22 @@ public class App
     	}*/
     	carInterfaceSampleOne.run();
     	carInterfaceSampleTwo.run();
+    	
+    	CarPrototype carInterfacePrototypeOne = context.getBean("carPrototype", CarPrototype.class);
+    	CarPrototype carInterfacePrototypeTwo = context.getBean("carPrototype", CarPrototype.class);
+    	// singleton test: prove the injection class is a singleton type by default
+    	/*
+    	for(int i = 0; i < 2; i++)
+    	{
+    		carInterface.run();
+    	}*/
+    	carInterfacePrototypeOne.run();
+    	carInterfacePrototypeTwo.run();
+    	carInterfacePrototypeOne.run();
+    	
+    	System.out.println(carInterfacePrototypeOne.hashCode());
+    	System.out.println(carInterfacePrototypeTwo.hashCode());
+    	
     	//System.out.println( "Hello World!" );
     	
     	
